@@ -24,7 +24,17 @@ class ListContainer extends React.Component {
         }
     }
 
-    changeText = (e) => {
+    editTask = (text, id) => {
+        this.setState({ todos: this.state.todos.map(todo => {
+            if (todo.id === id) {
+                todo.text = text;
+            }
+
+            return todo;
+        })})
+    }
+
+    changeTask = (e) => {
         this.setState({ textTask: e.target.value})
     }
 
@@ -35,9 +45,9 @@ class ListContainer extends React.Component {
     render() {
         return (
             <div>
-                <InputText onChange={this.changeText} value={this.state.textTask} />
+                <InputText onChange={this.changeTask} value={this.state.textTask} />
                 <AddTaskButton onPress={this.addTask} />
-                <List todos={this.state.todos} onPress={this.removeTask} />
+                <List todos={this.state.todos} onPress={this.removeTask} onChange={this.editTask} />
             </div>
         )
 

@@ -7,7 +7,10 @@ class List extends React.Component {
             return (
                 <ul>
                     {this.props.todos.map(todo =>
-                        <ListItem key={todo.id.toString()} onPress={() => this.props.onPress(todo.id)} task={todo}></ListItem>
+                        <ListItem 
+                            key={todo.id.toString()} 
+                            onPress={() => this.props.onPress(todo.id)} task={todo} 
+                            onChange={this.props.onChange}></ListItem>
                     )}
                 </ul>
             )
