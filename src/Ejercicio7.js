@@ -12,4 +12,4 @@ class Ejercicio7 extends React.Component {
     }
 }
 
-export default ListContainer;
+export default Ejercicio7;
