@@ -56,7 +56,7 @@ class Ejercicio10 extends React.Component {
         if (e.target.value === 'SAVE10') {
             this.setState({
                 disccount: 10,
-                disccountApply: 'Discuento aplicado del 10%'
+                disccountApply: 'Descuento aplicado del 10%'
             });
         } else {
             this.setState({
