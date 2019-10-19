@@ -15,6 +15,7 @@ import Ejercicio13 from './Ejercicio13.js';
 import Ejercicio14 from './Ejercicio14.js';
 import Ejercicio15 from './Ejercicio15.js';
 import Ejercicio16 from './Ejercicio16.js';
+import Ejercicio17 from './Ejercicio17.js';
 import './App.css';
  
 function App() {
@@ -37,6 +38,7 @@ function App() {
         <Ejercicio14 />
         <Ejercicio15 />
         <Ejercicio16 />
+        <Ejercicio17 />
         <a name="fin" href='#' />
       </header>
     </div>

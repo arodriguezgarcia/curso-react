@@ -39,7 +39,7 @@ class Ejercicio16 extends React.Component {
       return (
         <>
           <h1 className="ejercicio">16. PropTypes</h1>
-          <ShowServerConfig />
+          <ShowServerConfig environment="play" />
         </>
       );
     }
