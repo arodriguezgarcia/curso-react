@@ -22,12 +22,6 @@ const Button = styled.button `
   `}
 `;
 class Ejercicio15 extends React.Component {
-
-    constructor(props) {
-        super(props);
-
-      }
-
     render() {
       return (
         <>

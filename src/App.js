@@ -16,6 +16,7 @@ import Ejercicio14 from './Ejercicio14.js';
 import Ejercicio15 from './Ejercicio15.js';
 import Ejercicio16 from './Ejercicio16.js';
 import Ejercicio17 from './Ejercicio17.js';
+import Ejercicio18 from './Ejercicio18.js';
 import './App.css';
  
 function App() {
@@ -39,7 +40,8 @@ function App() {
         <Ejercicio15 />
         <Ejercicio16 />
         <Ejercicio17 />
-        <a name="fin" href='#' />
+        <Ejercicio18 />
+        <a name="fin" href="#fin">Fin</a>
       </header>
     </div>
   );

@@ -45,10 +45,6 @@ class ErrorBoundary extends React.Component {
 }
 
 class Ejercicio12 extends React.Component {
-
-    constructor(props) {
-        super(props);
-      }
     
     render() {
       return (

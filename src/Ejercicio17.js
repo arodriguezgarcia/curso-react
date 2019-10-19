@@ -29,19 +29,19 @@ function Comp1(props) {
 }
 
 function useCallAPI(url) {
-  const [data, setData] = useState([])
+  const [data, setData] = useState([]);
 
   const getData = async (url) => {
-    let response = await fetch(url)
-    let data = await response.json()
-    setData(data)
-  }
+    let response = await fetch(url);
+    let data = await response.json();
+    setData(data);
+  };
 
   useEffect(() => {
-    getData(url)
-  }, [])
+    getData(url);
+  }, []);
 
-  return data
+  return data;
 }
 
 function MyTodos() {

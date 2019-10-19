@@ -41,10 +41,6 @@ const MyPostList = APIContainer(PostList, 'https://jsonplaceholder.typicode.com/
 const MyPostDetail = APIContainer(PostDetail, 'https://jsonplaceholder.typicode.com/posts/1')
 
 class Ejercicio13 extends React.Component {
-
-    constructor(props) {
-        super(props);
-      }
     
     render() {
       return (

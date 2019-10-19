@@ -25,7 +25,7 @@ const MainText = () => (
 );
 
 // O bien podemos acceder al contexto funcionalmente
-class MainText2 extends React.Component {
+/*class MainText2 extends React.Component {
     static contextType = LangContext;
     render() {
 
@@ -38,7 +38,7 @@ class MainText2 extends React.Component {
             </>
         );
     }
-}
+}*/
 
 const Button = () => (
     <LangContext.Consumer>
